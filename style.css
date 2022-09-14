@@ -22,3 +22,18 @@ form {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#radioboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkboxes {
+  display: flex;
+  flex-direction: column;
+}
