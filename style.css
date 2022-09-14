@@ -37,3 +37,8 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+#text-area {
+  display: flex;
+  flex-direction: column;
+}
