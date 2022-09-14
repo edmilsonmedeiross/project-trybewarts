@@ -43,3 +43,7 @@ form {
   flex-direction: column;
 }
 
+#trybewarts-header-title {
+  font-size: xxx-large;
+}
+
