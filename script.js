@@ -13,7 +13,7 @@ function checkLogin() {
 }
 bttnLogin.addEventListener('click', checkLogin);
 
-document.getElementById("submit-btn").disabled = true;
+document.getElementById('submit-btn').disabled = true;
 function checkVerify() {
   if (checkBox.checked) {
     sbtBtn.disabled = false;
