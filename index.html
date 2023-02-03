@@ -82,16 +82,21 @@
             <div id="text-area">
                 <label class="textarea">Deixe seu comentário:</label>
                 <textarea rows="5" maxlength="500"></textarea>
+                    <form action="">
+                        <small id="counter">500</small>
+                    </form>
+                    <div>
+                        <label id="label-infos">Você concorda com o uso das informações acima?</label>
+                        <label><input type="checkbox" id="agreement"></label>
+                    </div>
+                    <div>
+                        <button id="submit-btn" type="submit" disabled >Enviar</button>
+                    </div>
+        
             </div>
 
-            <div>
-                <label id="label-infos">Você concorda com o uso das informações acima?</label>
-                <label><input type="checkbox" id="agreement"></label>
-            </div>
-
-            <div>
-                <button id="submit-btn" type="submit">Enviar</button>
-            </div>
+            
+            
         </form>
 
         <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="logo colorido">

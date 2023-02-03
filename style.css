@@ -41,6 +41,7 @@ form {
 #text-area {
   display: flex;
   flex-direction: column;
+  border: solid red;
 }
 
 #trybewarts-header-title {
